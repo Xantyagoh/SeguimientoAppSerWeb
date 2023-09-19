@@ -19,11 +19,16 @@ namespace EmployeeOOP.Clases
 
         #region Methods
 
+        public Employee()
+        {
+            
+        }
+
         public abstract decimal GetValueToPay();
 
         public override string ToString()
         {
-            return $"INFORMACIÓN EMPLEADO \n\t" +
+            return $"\n\t---INFORMACIÓN EMPLEADO---\n\t" +
                 $"ID: {Id}\n\t" +
                 $"Nombres: {FirstName}\n\t" +
                 $"Apellido: {LastName}\n\t" +
